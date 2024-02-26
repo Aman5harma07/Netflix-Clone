@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500;600&family=Montserrat&family=Oswald:wght@300&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+
+
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    height: 0.6rem;
+    background-color:rgb(35,35,35);
+    border: none;
+    width: 100%;
+}
+
+.row {
+    width: 75%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    flex-direction: column;
+}
+.headMain {
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.9) 100%), url(images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Icon {
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    height: 4rem;
+}
+
+.navbar {
+    padding: 2.5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.SelectList select {
+    padding: 0.375rem 2.25rem;
+    border: 0.1rem solid white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 0 1.5rem 0 0;
+}
+
+.SelectList option {
+    color: black;
+    font-weight: 500;
+}
+
+.SelectList a,
+.searchBox button {
+    padding: 0.7rem 1.7rem;
+    border: none;
+    font-size: 1.6rem;
+    background-color: rgb(229, 9, 20);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.SelectList a:hover {
+    background-color: rgb(178, 11, 19);
+
+}
+
+/* ********************UIface************************** */
+
+.UIface {
+    padding: 12rem 0 9.2rem 0;
+}
+
+.UI {
+    flex-direction: column;
+    text-align: center;
+}
+
+.cont1 p {
+    font-size: 5.3rem;
+}
+
+.cont2 p {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.cont3 p {
+    font-size: 2rem;
+}
+
+.searchBox {
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.searchInput {
+    position: relative;
+    height: 6rem;
+    width: 40rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.51);
+}
+
+.searchInput input {
+    height: 60%;
+    width: 100%;
+    border: none;
+    margin-top: 1.5rem;
+    outline: none;
+    font-size: 1.7rem;
+    padding: 0rem 2rem;
+}
+
+.searchInput input:focus~label {
+    transform: translateY(-20px);
+    font-size: 1.3rem;
+}
+
+.searchInput label {
+    position: absolute;
+    bottom: 1.8rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.searchBox button {
+    padding: 0.7rem 2.5rem;
+    margin: 0 2rem 0;
+}
+
+.searchBox button:hover {
+    background-color: rgb(178, 11, 19);
+}
+
+/* ****************EnjayTV************************ */
+
+.EnjoyBox {
+    width: 100%;
+    padding: 10rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.h3_5rem {
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+.Content_font_margin {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+.WatchTvImg img,
+.EnjoyImg img {
+    height: 50rem;
+    z-index: 10;
+    padding: 3rem 0;
+}
+.EnjoyImg video {
+    height: 41rem;
+    width: 43.3rem;
+    right: 8rem;
+    bottom: 6rem;
+    position: absolute;
+}
+
+.WatchTvImg video {
+    height: 40rem;
+    width: 37rem;
+    left: 10.5rem;
+    bottom: 11.5rem;
+    position: absolute;
+    z-index: 1;
+}
+
+/* **********************footer Section************************ */
+.QuestionsRow {
+    height: auto;
+    padding: 6rem 0;
+    flex-direction: column;
+}
+
+.QuestionsRow h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0 0 2rem 0;
+}
+
+.QuestionsRow ul li {
+    list-style: none;
+    height: auto;
+    background-color: rgb(38, 37, 37);
+    margin: 1rem 0;
+    position: relative;
+}
+
+#QA:hover {
+    background-color: rgb(87, 85, 85);
+}
+
+#QA {
+    width: 100%;
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 3rem;
+    background: none;
+    border: none;
+    position: relative;
+    border-bottom: 1px solid black;
+
+}
+
+#QA span img {
+    position: absolute;
+    top: 2.5rem;
+    right: 3rem;
+}
+
+.Net {
+    font-size: 2.5rem;
+
+}
+
+.ans p {
+    font-size: 2rem;
+    padding: 2.5rem;
+}
+
+.ans {
+    width: 100%;
+    background-color: rgb(38, 37, 37);
+    transition: all 2s ease-in-out;
+}
+
+.active {
+    display: none;
+}
+
+.membershipRow {
+    flex-direction: column;
+    align-items: center;
+}
+
+.membershipRow p {
+    font-size: 2rem;
+    color: white;
+    margin: 5rem 0 2rem 0 ;
+
+}
+.footRow{
+    font-size: 1.8rem;
+    padding: 6rem 0;
+}
+.foot1{
+    justify-content:space-between;
+
+}
+.box1 {
+    font-size: 1.5rem;
+
+}
+.box1 p{
+      margin: 2rem 0;
+}
+.box1 p a{
+    color: white;
+}
+
+

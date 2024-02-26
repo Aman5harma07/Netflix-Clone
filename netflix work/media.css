@@ -1,0 +1,80 @@
+@media screen and (max-width:1024px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 60%;
+    }
+
+    .EnjoyBox {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:425px) {
+    html {
+        font-size: 40%;
+    }
+    #QA span img {
+        top: 0.5rem;
+        right: 2rem;
+        height: 6rem;
+    }
+    .searchInput input:focus~label {
+        transform: translateY(-12px);
+    }
+    
+}
+@media screen and (max-width:375px) {
+    html {
+        font-size: 35%;
+    }
+    .searchInput input:focus~label {
+        transform: translateY(-11px);
+    }
+}
+
+@media screen and (max-width:320px) {
+    html {
+        font-size: 30%;
+    }
+    .searchInput input:focus~label {
+        transform: translateY(-10px);
+    }
+}
+@media screen and (width<320px) {
+    html {
+        font-size: 15%;
+    }
+}
+
+/* 
+
+
+.EnjoyBox {
+    width: 76%;
+    padding: 10rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBox {
+    flex-direction: row;
+    margin: 2rem 0;
+}
+.UI {
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+}
+
+*/

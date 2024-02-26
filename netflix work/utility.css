@@ -1,0 +1,28 @@
+.flex{
+    display: flex;  
+}
+.justifyCenter{
+    justify-content: center;   
+}
+.justifyBetween{
+    justify-content: space-between;   
+}
+.aligncenter{
+    align-items: center;    
+}
+.pointer{
+    cursor: pointer;
+}
+.ColorWhite{
+    color: white;
+}
+.backgroundNone{
+    background:none ;
+}
+.relative{
+    position: relative;
+    text-decoration: none;
+}
+.text-decoration-none{
+    text-decoration: none; 
+}
